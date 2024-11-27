@@ -1,0 +1,39 @@
+.color-btn {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.1s, background-color 0.1s;
+}
+
+.color-btn:active {
+    transform: scale(0.95);
+}
+
+.flash {
+    background-color: grey !important;
+}
+
+.green { background-color: rgb(68, 255, 68); }
+.red { background-color: rgb(255, 61, 61); }
+.yellow { background-color: rgb(255, 255, 63); }
+.blue { background-color: rgb(57, 110, 255); }
+
+#start-btn {
+    background-color: rgb(172, 95, 245);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0.0.0.1cap;
+    width: 200px;
+    height: 30px;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(2, 150px);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
